@@ -1,0 +1,173 @@
+[01/12/2021 12:30:03] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt
+[01/12/2021 12:30:03] [INFO] Inicio procesamiento
+[01/12/2021 12:30:04] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt eliminado
+[01/12/2021 12:30:11] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1.txt
+[01/12/2021 12:30:11] [INFO] Inicio procesamiento
+[01/12/2021 12:30:25] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1.txt eliminado
+[01/12/2021 12:30:32] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_2.txt
+[01/12/2021 12:30:32] [INFO] Inicio procesamiento
+[01/12/2021 12:31:13] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_2.txt eliminado
+[01/12/2021 12:31:20] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_3.txt
+[01/12/2021 12:31:20] [INFO] Inicio procesamiento
+[01/12/2021 12:32:24] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_3.txt eliminado
+[01/12/2021 12:32:31] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_4 (1).txt
+[01/12/2021 12:32:31] [INFO] Inicio procesamiento
+[01/12/2021 12:32:32] [ERROR] ERROR TRANSFORMANDO EL REGISTRO :﻿1200.00 java.lang.NumberFormatException: For input string: "﻿1200.00"
+[01/12/2021 12:33:46] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_4 (1).txt eliminado
+[01/12/2021 14:14:02] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt
+[01/12/2021 14:14:02] [INFO] Inicio procesamiento
+[01/12/2021 14:14:03] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt eliminado
+[01/12/2021 14:14:10] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1.txt
+[01/12/2021 14:14:10] [INFO] Inicio procesamiento
+[01/12/2021 14:14:23] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1.txt eliminado
+[01/12/2021 14:14:30] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_2.txt
+[01/12/2021 14:14:30] [INFO] Inicio procesamiento
+[01/12/2021 14:15:05] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_2.txt eliminado
+[01/12/2021 14:33:36] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt
+[01/12/2021 14:33:36] [INFO] Inicio procesamiento
+[01/12/2021 14:33:37] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt eliminado
+[01/12/2021 14:33:58] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1.txt
+[01/12/2021 14:33:58] [INFO] Inicio procesamiento
+[01/12/2021 14:34:12] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1.txt eliminado
+[01/12/2021 14:34:41] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_4 (1).txt
+[01/12/2021 14:34:41] [INFO] Inicio procesamiento
+[01/12/2021 14:34:41] [ERROR] ERROR TRANSFORMANDO EL REGISTRO :﻿1200.00 java.lang.NumberFormatException: For input string: "﻿1200.00"
+[01/12/2021 14:35:55] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_4 (1).txt eliminado
+[02/12/2021 17:30:27] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt
+[02/12/2021 17:30:27] [INFO] Inicio procesamiento
+[02/12/2021 17:30:28] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt eliminado
+[02/12/2021 17:38:38] [ERROR] com.sophos.streamdata.controller.APIController java.lang.InterruptedException: sleep interrupted
+[03/12/2021 08:26:28] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt
+[03/12/2021 08:26:28] [INFO] Inicio procesamiento
+[03/12/2021 08:26:29] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt eliminado
+[03/12/2021 08:27:38] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt
+[03/12/2021 08:27:38] [INFO] Inicio procesamiento
+[03/12/2021 08:27:39] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt eliminado
+[03/12/2021 08:27:55] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt
+[03/12/2021 08:27:55] [INFO] Inicio procesamiento
+[03/12/2021 08:27:55] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt eliminado
+[03/12/2021 08:28:02] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1.txt
+[03/12/2021 08:28:02] [INFO] Inicio procesamiento
+[03/12/2021 08:28:16] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1.txt eliminado
+[03/12/2021 08:28:23] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_2.txt
+[03/12/2021 08:28:23] [INFO] Inicio procesamiento
+[03/12/2021 08:28:54] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_2.txt eliminado
+[03/12/2021 08:29:01] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_3.txt
+[03/12/2021 08:29:01] [INFO] Inicio procesamiento
+[03/12/2021 08:29:48] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_3.txt eliminado
+[03/12/2021 08:29:55] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_4 (1).txt
+[03/12/2021 08:29:55] [INFO] Inicio procesamiento
+[03/12/2021 08:29:55] [ERROR] ERROR TRANSFORMANDO EL REGISTRO :﻿1200.00 java.lang.NumberFormatException: For input string: "﻿1200.00"
+[03/12/2021 08:31:00] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_4 (1).txt eliminado
+[03/12/2021 08:53:26] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt
+[03/12/2021 08:53:26] [INFO] Inicio procesamiento
+[03/12/2021 08:53:27] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt eliminado
+[03/12/2021 09:08:05] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt
+[03/12/2021 09:08:05] [INFO] Inicio procesamiento
+[03/12/2021 09:08:05] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt eliminado
+[03/12/2021 10:38:46] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt
+[03/12/2021 10:38:46] [INFO] Inicio procesamiento
+[03/12/2021 10:38:47] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt eliminado
+[03/12/2021 11:55:15] [INFO] procesando este path C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt
+[03/12/2021 11:55:15] [INFO] Inicio procesamiento
+[03/12/2021 11:55:16] [INFO] Archivo C:\Users\miguel.londono\Documents\WEBSOCKETFILES\Esc_1 - copia.txt eliminado
+[25/02/2022 11:13:11] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt
+[25/02/2022 11:13:11] [INFO] Inicio procesamiento
+[25/02/2022 11:13:28] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt eliminado
+[25/02/2022 11:20:55] [ERROR] com.sophos.streamdata.controller.APIController java.lang.InterruptedException: sleep interrupted
+[25/02/2022 11:23:12] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt
+[25/02/2022 11:23:12] [INFO] Inicio procesamiento
+[25/02/2022 11:23:31] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt eliminado
+[25/02/2022 11:25:50] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt
+[25/02/2022 11:25:50] [INFO] Inicio procesamiento
+[25/02/2022 11:26:00] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt eliminado
+[25/02/2022 11:26:07] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2) - copia.txt
+[25/02/2022 11:26:07] [INFO] Inicio procesamiento
+[25/02/2022 11:26:15] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2) - copia.txt eliminado
+[25/02/2022 11:26:22] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt
+[25/02/2022 11:26:22] [INFO] Inicio procesamiento
+[25/02/2022 11:26:27] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt eliminado
+[25/02/2022 11:26:34] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (3) - copia.txt
+[25/02/2022 11:26:35] [INFO] Inicio procesamiento
+[25/02/2022 11:26:40] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (3) - copia.txt eliminado
+[25/02/2022 11:26:47] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (4) - copia.txt
+[25/02/2022 11:26:47] [INFO] Inicio procesamiento
+[25/02/2022 11:26:50] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (4) - copia.txt eliminado
+[25/02/2022 11:26:57] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (5) - copia.txt
+[25/02/2022 11:26:57] [INFO] Inicio procesamiento
+[25/02/2022 11:27:00] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (5) - copia.txt eliminado
+[25/02/2022 11:27:07] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (6) - copia.txt
+[25/02/2022 11:27:07] [INFO] Inicio procesamiento
+[25/02/2022 11:27:10] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (6) - copia.txt eliminado
+[25/02/2022 11:29:32] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt
+[25/02/2022 11:29:32] [INFO] Inicio procesamiento
+[25/02/2022 11:29:32] [INFO] Inicio procesamiento
+[25/02/2022 11:29:32] [INFO] Inicio procesamiento
+[25/02/2022 11:29:58] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt eliminado
+[25/02/2022 11:30:05] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2) - copia.txt
+[25/02/2022 11:30:05] [INFO] Inicio procesamiento
+[25/02/2022 11:30:21] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2) - copia.txt eliminado
+[25/02/2022 11:30:28] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt
+[25/02/2022 11:30:28] [INFO] Inicio procesamiento
+[25/02/2022 11:30:43] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt eliminado
+[25/02/2022 11:30:50] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (3) - copia.txt
+[25/02/2022 11:30:50] [INFO] Inicio procesamiento
+[25/02/2022 11:31:08] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (3) - copia.txt eliminado
+[25/02/2022 11:31:15] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (4) - copia.txt
+[25/02/2022 11:31:15] [INFO] Inicio procesamiento
+[25/02/2022 11:31:36] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (4) - copia.txt eliminado
+[25/02/2022 11:31:43] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (5) - copia.txt
+[25/02/2022 11:31:43] [INFO] Inicio procesamiento
+[25/02/2022 11:32:01] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (5) - copia.txt eliminado
+[25/02/2022 11:32:08] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (6) - copia.txt
+[25/02/2022 11:32:08] [INFO] Inicio procesamiento
+[25/02/2022 11:43:18] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt
+[25/02/2022 11:43:18] [INFO] Inicio procesamiento
+[25/02/2022 11:43:45] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt eliminado
+[25/02/2022 11:43:52] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2) - copia.txt
+[25/02/2022 11:43:52] [INFO] Inicio procesamiento
+[25/02/2022 11:44:14] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2) - copia.txt eliminado
+[25/02/2022 11:44:21] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt
+[25/02/2022 11:44:21] [INFO] Inicio procesamiento
+[25/02/2022 11:45:06] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt eliminado
+[25/02/2022 11:45:13] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (3) - copia.txt
+[25/02/2022 11:45:13] [INFO] Inicio procesamiento
+[25/02/2022 11:46:01] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (3) - copia.txt eliminado
+[25/02/2022 11:46:08] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (4) - copia.txt
+[25/02/2022 11:46:08] [INFO] Inicio procesamiento
+[25/02/2022 11:46:48] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (4) - copia.txt eliminado
+[25/02/2022 11:46:55] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (5) - copia.txt
+[25/02/2022 11:46:55] [INFO] Inicio procesamiento
+[25/02/2022 11:47:31] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (5) - copia.txt eliminado
+[25/02/2022 11:47:38] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (6) - copia.txt
+[25/02/2022 11:47:38] [INFO] Inicio procesamiento
+[25/02/2022 11:48:11] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (6) - copia.txt eliminado
+[25/02/2022 11:48:18] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (7) - copia.txt
+[25/02/2022 11:48:18] [INFO] Inicio procesamiento
+[25/02/2022 12:01:00] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt
+[25/02/2022 12:01:00] [INFO] Inicio procesamiento
+[25/02/2022 12:04:52] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt eliminado
+[25/02/2022 12:04:59] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt
+[25/02/2022 12:04:59] [INFO] Inicio procesamiento
+[25/02/2022 12:07:01] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt
+[25/02/2022 12:07:01] [INFO] Inicio procesamiento
+[25/02/2022 12:10:56] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt eliminado
+[25/02/2022 12:11:03] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt
+[25/02/2022 12:11:03] [INFO] Inicio procesamiento
+[25/02/2022 12:14:20] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt
+[25/02/2022 12:14:20] [INFO] Inicio procesamiento
+[25/02/2022 12:18:00] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt eliminado
+[25/02/2022 12:18:07] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt
+[25/02/2022 12:18:07] [INFO] Inicio procesamiento
+[25/02/2022 12:21:47] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt eliminado
+[25/02/2022 12:21:54] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (3) - copia.txt
+[25/02/2022 12:21:54] [INFO] Inicio procesamiento
+[25/02/2022 12:29:33] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt
+[25/02/2022 12:29:33] [INFO] Inicio procesamiento
+[25/02/2022 12:33:16] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt eliminado
+[25/02/2022 12:34:22] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt
+[25/02/2022 12:34:22] [INFO] Inicio procesamiento
+[25/02/2022 12:34:59] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (10) - copia.txt eliminado
+[25/02/2022 12:35:06] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt
+[25/02/2022 12:35:06] [INFO] Inicio procesamiento
+[25/02/2022 12:35:44] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\Esc_1 (2).txt eliminado
