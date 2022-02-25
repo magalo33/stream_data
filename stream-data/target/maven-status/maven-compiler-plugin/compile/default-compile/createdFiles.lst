@@ -1,0 +1,8 @@
+com\sophos\streamdata\controller\APIController.class
+com\sophos\streamdata\utilidades\ConfiguracionAplicaccion.class
+com\sophos\streamdata\utilidades\Utils.class
+com\sophos\streamdata\utilidades\ConfiguracionUtilValues.class
+com\sophos\streamdata\controller\APIController$1.class
+com\sophos\streamdata\StreamDataApplication.class
+com\sophos\streamdata\utilidades\Log.class
+com\sophos\streamdata\utilidades\ScannerFile.class
