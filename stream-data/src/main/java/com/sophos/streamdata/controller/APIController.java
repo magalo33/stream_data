@@ -48,7 +48,7 @@ public class APIController {
                         try{}catch(Exception e){
                             System.out.println("Error controlado "+e.toString());
                         }
-                        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\nINICIANDO ENVIO\n\n\n\n\n\n\n\n\n\n\n\n");
+                        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\nINICIANDO ENVIO\n");
                         Calendar cal0 = Calendar.getInstance();
                         long t1 = cal0.getTimeInMillis();
                         
@@ -69,13 +69,11 @@ public class APIController {
                             outputStream.flush();
                         }
                         sf.setListacargada(false);
-                        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\nfin ENVIO\n\n\n\n\n\n\n\n\n\n\n\n");
+                        System.out.println("\n\n\n\n\n\n\n\n\n\n\n\nFIN ENVIO\n");
                         Calendar cal2 = Calendar.getInstance();
                         long t2 = cal2.getTimeInMillis();
                         long nt= (t2-t1)/1000;
-                        System.out.println("tiempo transcurrido");
-                        System.out.println(t2+"-"+t1);
-                        System.out.println("tiempo de carga "+nt);
+                        System.out.println("tiempo de ejecución "+nt);
                     }
                 }
             }
