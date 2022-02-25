@@ -6,8 +6,6 @@ import com.sophos.streamdata.utilidades.ScannerFile;
 import java.io.IOException;
 import java.io.OutputStream;
 import java.util.Calendar;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -31,7 +29,7 @@ public class APIController {
         @SuppressWarnings("SleepWhileInLoop")
         StreamingResponseBody response = new StreamingResponseBody() {
             @Override
-            public void writeTo(OutputStream outputStream) throws IOException {
+            public void writeTo(OutputStream outputStream) throws IOException {                
                 while (true) {
                     try {
                         Thread.sleep(milisegundos);
@@ -39,7 +37,8 @@ public class APIController {
                         StreamDataApplication.registrarErrorLog(APIController.class.getName() + " " + ex.toString());
                     }
                     //Si no hay información cargada en memoria lanza un HB de lo contrario envia IU al cliente
-                    if (!sf.isListacargada()) {
+                    try{
+                        if (!sf.isListacargada()) {
                         String datoEnvio = cabeceraXml.concat(hbXml.replace("[TIME]", (Calendar.getInstance().getTimeInMillis() + "")));
                         System.out.println("enviando " + datoEnvio);
                         outputStream.write((datoEnvio + "\n").getBytes());
@@ -75,6 +74,9 @@ public class APIController {
                         long nt= (t2-t1)/1000;
                         System.out.println("tiempo de ejecución "+nt);
                     }
+                    }catch(Exception e){
+                        System.out.println("Error técnico "+e.toString());
+                    }                    
                 }
             }
         };
