@@ -15,14 +15,15 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
 
-public class ScannerFile implements Runnable{
+public class ScannerFile implements Runnable {
+
     private boolean listacargada = false;
     private ArrayList listaDataEntrada = new ArrayList();
-    
+
     @SuppressWarnings("null")
     public ScannerFile() {
         this.listacargada = false;
-        this.listaDataEntrada = new ArrayList();   
+        this.listaDataEntrada = new ArrayList();
     }
 
     /**
@@ -57,28 +58,29 @@ public class ScannerFile implements Runnable{
     public void run() {
         int milisegundos = Integer.parseInt(ConfiguracionUtilValues.MILISEGUNDOS);
         try {
-                /*crear la variable de escucha del archivo base de datos*/
-                WatchService service = FileSystems.getDefault().newWatchService();
-                try {
-                    WatchKey watchKey;
-                    Map keyMap = new HashMap();
-                    Path path = Paths.get(ConfiguracionUtilValues.LOCATION_FILE, new String[0]);
-                    keyMap.put(path.register(service, (WatchEvent.Kind<?>[]) new WatchEvent.Kind[]{StandardWatchEventKinds.ENTRY_CREATE, StandardWatchEventKinds.ENTRY_DELETE}), path);
-                    do {
-                        /*Inicia el monitoreo del archivo*/
-                        watchKey = service.take();
-                        Path evenDir = (Path) keyMap.get(watchKey);
-                        for (WatchEvent<?> event : watchKey.pollEvents()) {
-                            WatchEvent.Kind<?> kind = event.kind();
-                            Path eventPath = (Path) event.context();
-                            if (kind.equals(StandardWatchEventKinds.ENTRY_CREATE)) {
-                                try {
-                                    /*Espera 7 segundos para continuar*/
-                                    Thread.sleep(7000L);
-                                } catch (InterruptedException exception) {
+            /*crear la variable de escucha del archivo base de datos*/
+            WatchService service = FileSystems.getDefault().newWatchService();
+            try {
+                WatchKey watchKey;
+                Map keyMap = new HashMap();
+                Path path = Paths.get(ConfiguracionUtilValues.LOCATION_FILE, new String[0]);
+                keyMap.put(path.register(service, (WatchEvent.Kind<?>[]) new WatchEvent.Kind[]{StandardWatchEventKinds.ENTRY_CREATE, StandardWatchEventKinds.ENTRY_DELETE}), path);
+                do {
+                    /*Inicia el monitoreo del archivo*/
+                    watchKey = service.take();
+                    Path evenDir = (Path) keyMap.get(watchKey);
+                    for (WatchEvent<?> event : watchKey.pollEvents()) {
+                        WatchEvent.Kind<?> kind = event.kind();
+                        Path eventPath = (Path) event.context();
+                        if (kind.equals(StandardWatchEventKinds.ENTRY_CREATE)) {
+                            try {
+                                /*Espera 7 segundos para continuar*/
+                                Thread.sleep(7000L);
+                            } catch (InterruptedException exception) {
 
-                                }
+                            }
 
+                            try {
                                 File directory = new File(ConfiguracionUtilValues.LOCATION_FILE);
                                 File[] allFilesInDir = directory.listFiles();
                                 if (allFilesInDir.length == 0) {
@@ -86,13 +88,13 @@ public class ScannerFile implements Runnable{
                                 } else {
                                     String fileName = allFilesInDir[0].getName();
                                     String pathh = allFilesInDir[0].getPath();
-                                     StreamDataApplication.registrarInfoLog("procesando este path " + pathh);
+                                    StreamDataApplication.registrarInfoLog("procesando este path " + pathh);
                                     File file = new File(pathh);
 
                                     Scanner scan = new Scanner(file);
                                     ArrayList listaDataEntradaStrings = new ArrayList();
                                     listaDataEntrada = new ArrayList();
-                                     StreamDataApplication.registrarInfoLog("Inicio procesamiento");
+                                    StreamDataApplication.registrarInfoLog("Inicio procesamiento");
                                     while (scan.hasNextLine()) {
                                         listaDataEntradaStrings.add(scan.nextLine());
                                     }
@@ -100,55 +102,55 @@ public class ScannerFile implements Runnable{
                                     scan.close();
 
                                     /*Carga en memoria la lista de datos leidos desde el archivo de texto*/
-                                    for (int i=0;i<listaDataEntradaStrings.size();i++) {
+                                    System.out.println("tamaño de la lista "+listaDataEntradaStrings.size());
+                                    System.out.println("nombre del archivo "+pathh);
+                                    Thread.sleep(100);
+                                    for (int i = 0; i < listaDataEntradaStrings.size(); i++) {
                                         String dato = listaDataEntradaStrings.get(i).toString();
                                         try {
                                             listaDataEntrada.add(Double.parseDouble(dato.trim()));
                                         } catch (NumberFormatException e) {
-                                             StreamDataApplication.registrarErrorLog("ERROR TRANSFORMANDO EL REGISTRO :" + dato + " " + e);
+                                            StreamDataApplication.registrarErrorLog("ERROR TRANSFORMANDO EL REGISTRO :" + dato + " " + e);
                                         }
                                     }
                                     /*carga la variable listacargada con true para ser iniciar envio de datos desde el metodo principal*/
                                     this.listacargada = true;
 
                                     /*Espera a que la información haya sido enviada para proceder a borrar el archivo origen*/
-                                    while(this.listacargada){
+                                    while (this.listacargada) {
                                         Thread.sleep(milisegundos);
                                     }
                                     try {
                                         if (new File(pathh).delete()) {
-                                            StreamDataApplication.registrarInfoLog("Archivo "+pathh+" eliminado");
+                                            StreamDataApplication.registrarInfoLog("Archivo " + pathh + " eliminado");
                                         } else {
-                                             StreamDataApplication.registrarInfoLog("No se pudo eliminar el archivo "+pathh);
+                                            StreamDataApplication.registrarInfoLog("No se pudo eliminar el archivo " + pathh);
                                         }
                                     } catch (Exception e) {
-                                         StreamDataApplication.registrarErrorLog("error " + e.toString());
+                                        StreamDataApplication.registrarErrorLog("error " + e.toString());
                                     }
                                 }
-
+                            } catch (Exception e) {
                             }
+
                         }
-                    } while (watchKey.reset());
+                    }
+                } while (watchKey.reset());
 
-                    if (service != null) {
-                        service.close();
-                    }
-                } catch (IOException | InterruptedException throwable) {
-                    if (service != null) try {
-                        service.close();
-                    } catch (IOException throwable1) {
-                        throwable.addSuppressed(throwable1);
-                    }
-                    throw throwable;
+                if (service != null) {
+                    service.close();
                 }
-            } catch (IOException | InterruptedException e) {
-                StreamDataApplication.registrarErrorLog("El path configruado no es valido, verifique y reinicie el componente");
+            } catch (IOException | InterruptedException throwable) {
+                if (service != null) try {
+                    service.close();
+                } catch (IOException throwable1) {
+                    throwable.addSuppressed(throwable1);
+                }
+                throw throwable;
             }
+        } catch (IOException | InterruptedException e) {
+            StreamDataApplication.registrarErrorLog("El path configruado no es valido, verifique y reinicie el componente");
+        }
     }
-    
-    
 
-    
-    
- 
 }
