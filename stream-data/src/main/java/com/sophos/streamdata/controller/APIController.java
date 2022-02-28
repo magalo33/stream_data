@@ -74,6 +74,7 @@ public class APIController {
                                     while((datoEnvio + "\n").getBytes() == null){
                                         System.out.println(datoEnvio+"<----cargando");
                                     }
+                                    Thread.sleep(0,001);
                                     outputStream.write((datoEnvio + "\n").getBytes());                            
                                     outputStream.flush();
                                     indice+=1;
