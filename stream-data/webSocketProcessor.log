@@ -331,3 +331,13 @@
 [28/02/2022 10:58:59] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a900.txt
 [28/02/2022 10:58:59] [INFO] Inicio procesamiento
 [28/02/2022 11:01:10] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\a900.txt eliminado
+[28/02/2022 13:10:49] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a1.txt
+[28/02/2022 13:10:49] [INFO] Inicio procesamiento
+[28/02/2022 13:14:25] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\a1.txt eliminado
+[28/02/2022 13:14:32] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a2.txt
+[28/02/2022 13:14:32] [INFO] Inicio procesamiento
+[28/02/2022 13:17:14] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\a2.txt eliminado
+[28/02/2022 13:17:21] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a3.txt
+[28/02/2022 13:17:21] [INFO] Inicio procesamiento
+[28/02/2022 13:26:44] [ERROR] com.sophos.streamdata.controller.APIController java.lang.InterruptedException: sleep interrupted
+[28/02/2022 13:26:44] [INFO] Se asignó correctamente las varibles desde el archivo de propiedades
