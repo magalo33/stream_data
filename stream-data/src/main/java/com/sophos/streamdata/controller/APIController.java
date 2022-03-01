@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.mvc.method.annotation.StreamingResponseBody;
 //http://190.27.52.244:9192/stream-data/api/stream/data
+//http://localhost:8080/stream-data/api/stream/data
 
 @RequestMapping("/api/stream")
 @RestController
@@ -69,11 +70,15 @@ public class APIController {
                                 long t = cal.getTimeInMillis();
                                 String ping = "\"" + d + "\"";
                                 String datoEnvio = cabeceraXml.concat(iuXml.replace("[ETIQUETA]", etiqueta).replace("[TIME]", (t + "")).replace("[VALUE]", ping));
-                                ///if(!listaEnvio.contains(ping)){
+                                //if(!listaEnvio.contains(ping)){
                                     ///listaEnvio.add(ping);
                                     while((datoEnvio + "\n").getBytes() == null){
                                         System.out.println(datoEnvio+"<----cargando");
                                     }
+                                    if(i%600==0){
+                                        Thread.sleep(500);
+                                    }
+                                    
                                     outputStream.write((datoEnvio + "\n").getBytes());                            
                                     outputStream.flush();
                                     indice+=1;

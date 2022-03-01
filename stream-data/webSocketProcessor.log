@@ -341,3 +341,43 @@
 [28/02/2022 13:17:21] [INFO] Inicio procesamiento
 [28/02/2022 13:26:44] [ERROR] com.sophos.streamdata.controller.APIController java.lang.InterruptedException: sleep interrupted
 [28/02/2022 13:26:44] [INFO] Se asignó correctamente las varibles desde el archivo de propiedades
+[28/02/2022 18:43:55] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a1.txt
+[28/02/2022 18:43:55] [INFO] Inicio procesamiento
+[28/02/2022 18:48:10] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\a1.txt eliminado
+[28/02/2022 18:48:17] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a10.txt
+[28/02/2022 18:48:17] [INFO] Inicio procesamiento
+[28/02/2022 19:01:14] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a1.txt
+[28/02/2022 19:01:14] [INFO] Inicio procesamiento
+[28/02/2022 19:01:38] [ERROR] com.sophos.streamdata.controller.APIController java.lang.InterruptedException: sleep interrupted
+[28/02/2022 19:07:44] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a1.txt
+[28/02/2022 19:07:44] [INFO] Inicio procesamiento
+[28/02/2022 19:10:49] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a2.txt
+[28/02/2022 19:10:49] [INFO] Inicio procesamiento
+[28/02/2022 19:11:59] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a3.txt
+[28/02/2022 19:11:59] [INFO] Inicio procesamiento
+[28/02/2022 19:13:21] [ERROR] com.sophos.streamdata.controller.APIController java.lang.InterruptedException: sleep interrupted
+[28/02/2022 19:13:36] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a4.txt
+[28/02/2022 19:13:36] [INFO] Inicio procesamiento
+[28/02/2022 19:13:36] [INFO] Inicio procesamiento
+[28/02/2022 19:14:46] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a6.txt
+[28/02/2022 19:14:46] [INFO] Inicio procesamiento
+[28/02/2022 19:15:20] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\a6.txt eliminado
+[28/02/2022 19:16:30] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a10.txt
+[28/02/2022 19:16:31] [INFO] Inicio procesamiento
+[28/02/2022 19:17:26] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\a10.txt eliminado
+[28/02/2022 19:18:13] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a14.txt
+[28/02/2022 19:18:13] [INFO] Inicio procesamiento
+[28/02/2022 19:19:06] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\a14.txt eliminado
+[28/02/2022 19:20:36] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a16.txt
+[28/02/2022 19:20:36] [INFO] Inicio procesamiento
+[28/02/2022 19:25:19] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a5.txt
+[28/02/2022 19:25:19] [INFO] Inicio procesamiento
+[28/02/2022 19:26:46] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a14.txt
+[28/02/2022 19:26:46] [INFO] Inicio procesamiento
+[28/02/2022 19:28:12] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\a14.txt eliminado
+[28/02/2022 19:29:50] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a22.txt
+[28/02/2022 19:29:50] [INFO] Inicio procesamiento
+[28/02/2022 19:31:58] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\a22.txt eliminado
+[28/02/2022 19:33:34] [INFO] procesando este path C:\Users\Magalo\Documents\WEBSOCKETFILES\a24.txt
+[28/02/2022 19:33:34] [INFO] Inicio procesamiento
+[28/02/2022 19:35:23] [INFO] Archivo C:\Users\Magalo\Documents\WEBSOCKETFILES\a24.txt eliminado
